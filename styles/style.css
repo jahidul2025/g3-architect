@@ -8,31 +8,83 @@
   font-style: normal;
 }
 
-/* header section */
+
+/* shared style */
+
+.bg-light {
+  background-color: rgba(255, 144, 14, 0.1);
+}
+
+.btn-primary {
+  background-color: rgba(255, 144, 14, 1);
+  color: white;
+  border: none;
+  width: 180px;
+  height: 64px;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
 
 /* header section */
 
-.nav, .banner{
+/* header section */
+
+.nav,
+.banner {
   max-width: 1440px;
   margin: 0 auto;
 }
 
-.nav{
+.nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
+
 }
 
-.link-item{
+.link-item {
   list-style: none;
+  color: rgba(66, 66, 66, 1);
 }
 
-.link-items{
+.link-items {
   display: flex;
   gap: 30px;
 }
 
-.link-anchor{
+.link-anchor {
   text-decoration: none;
+  color: rgba(66, 66, 66, 1);
+  font-size: 1.3rem;
+}
+
+.brand-name {
+  color: rgba(19, 19, 19, 1);
+  font-size: 3rem;
+}
+
+.banner-containt {
+  width: 862px;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+
+
+}
+
+
+.brand-title {
+  font-size: 4rem;
+
+}
+
+.brand-subtitle {
+  color: rgba(114, 114, 114, 1);
+  font-size: 1.2rem;
+
+}
+
+.img{
+  margin-top: 30px;
 }
