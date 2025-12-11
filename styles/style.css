@@ -7,3 +7,32 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* header section */
+
+/* header section */
+
+.nav, .banner{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.link-item{
+  list-style: none;
+}
+
+.link-items{
+  display: flex;
+  gap: 30px;
+}
+
+.link-anchor{
+  text-decoration: none;
+}
