@@ -65,9 +65,8 @@
 }
 
 .banner-containt {
-  width: 862px;
+   max-width: 862px;
   text-align: center;
-  justify-content: center;
   margin: 0 auto;
 
 
@@ -75,16 +74,40 @@
 
 
 .brand-title {
-  font-size: 4rem;
-
+  font-size: 3rem;
 }
 
 .brand-subtitle {
   color: rgba(114, 114, 114, 1);
   font-size: 1.2rem;
+  margin-bottom: 30px;
+
 
 }
 
-.img{
+.img {
   margin-top: 30px;
+}
+
+.banner-image {
+  width: 100%;
+}
+
+
+
+
+/* for medium phone */
+
+@media screen and (max-width:576px) {
+
+  .link-items,
+  .nav {
+    flex-direction: column;
+  }
+
+  
+  
+
+
+
 }
