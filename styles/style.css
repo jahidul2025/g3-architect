@@ -65,7 +65,7 @@
 }
 
 .banner-containt {
-   max-width: 862px;
+  max-width: 862px;
   text-align: center;
   margin: 0 auto;
 
@@ -87,13 +87,51 @@
 
 .img {
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .banner-image {
   width: 100%;
+  margin-bottom: 30px;
 }
 
 
+.hero {
+  display: flex;
+  gap: 70px;
+  max-width: 1350px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.feature-title{
+  font-size: 2.8rem;
+}
+
+.feature-subtitle {
+  color: rgba(114, 114, 114, 1);
+}
+
+.quick {
+  font-weight: 500;
+  color: rgba(114, 114, 114, 1);
+}
+
+.our{
+  font-weight: 700;
+  color: rgba(19, 19, 19, 1);
+}
+
+.feature-color{
+  color: rgba(255, 144, 14, 1);
+}
 
 
 /* for medium phone */
@@ -105,9 +143,13 @@
     flex-direction: column;
   }
 
-  
-  
 
+.image-container{
+  grid-template-columns: 1fr;
+}
 
+.hero{
+  flex-direction: column;
+}
 
 }
